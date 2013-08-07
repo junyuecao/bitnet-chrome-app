@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>设置 -- 北京理工大学外网登录</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all">
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.checkbox.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/options_css.css" media="all">
+</head>
+<body>
+	<div id="cont">
+            <h2>选项</h2>
+            
+            <p>
+            	<input type="checkbox" id="startuplogin" checked="" style="position: absolute; z-index: -1; visibility: hidden;">
+            	<label for="startuplogin"> 启动浏览器自动登录</label><br><em>要求记住密码，若登录成功将有提示。</em>
+            </p>
+            
+            <p>
+            	<input type="checkbox" id="autologin" checked="" style="position: absolute; z-index: -1; visibility: hidden;">
+            	<label for="autologin"> 强制下线后登录</label><br><em>当用户强制下线后会有两分钟等待时间，此时点击登录将会开始自动登录。成功后将有提示</em>
+            </p>
+            <p>
+                <input type="checkbox" id="activelogin" checked="" style="position: absolute; z-index: -1; visibility: hidden;">
+                <label for="activelogin"> 唤醒后自动登录</label><br><em>使用场景：用户待机后一段时间帐号会被注销，如打开此选项唤醒后将自动登录，登陆后有提示（要求记住帐号，要求帐号没有在别处登录）</em>
+            </p>
+        </div>
+
+        <script type="text/javascript" src="lib/jquery.js"></script>
+        <script type="text/javascript" src="js/util.js"></script>
+        <script type="text/javascript" src="js/jquery.checkbox.min.js"></script>
+        <script type="text/javascript" src="js/options.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+    "app":{
+        "background":{
+            "scripts":["main.js"]
+        }
+    },
+//   "background": {
+//      "page":  "background.html",
+//      "persistent": false
+//   },
+//   "browser_action": {
+//      "default_icon": "static//img/icon19.png",
+//      "default_popup": "page_action.html",
+//      "default_title": "北理工外网"
+//   },
+//   "content_scripts": [
+//    {
+//      "matches": ["http://10.0.0.55:8800/services.php?action=detail*"],
+//      "js": ["static/js/jquery.js","static/js/util.js", "static/js/inject.js"]
+//    }
+//  ],
+   "description": "北京理工大学外网号登录器",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "北理工外网登录器",
+   "permissions": ["webview","storage", "http://10.0.0.55/*","http://10.0.0.55:8080/*","notifications","idle"],
+   "version": "0.1.6"
+//   "options_page": "options.html",
+//   "web_accessible_resources": [  "static/img/icon48.png","ipdata.dat"]
+}

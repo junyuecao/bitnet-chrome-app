@@ -1,0 +1,34 @@
+
+body{font-family:arial,sans-serif;font-size:13px;
+	background: #F1F3F5;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+a{color:#11c;text-decoration:none}
+a:hover{text-decoration:underline}
+#cont {
+position: relative;
+margin-top: 30px;
+width: 500px;
+background: white;
+margin-left: auto;
+margin-right: auto;
+border: 1px solid #ccc;
+padding: 10px;
+-webkit-box-shadow: 0 0 10px #ccc;
+}
+p label{
+	float: left;
+line-height: 28px;
+min-width: 150px;
+color: #333;
+font-size: 14px;
+}
+p > em {
+margin-top: 5px;
+display: block;
+margin-left: 150px;
+line-height: 16px;
+font-size: 12px;
+}

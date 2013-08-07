@@ -1,0 +1,21 @@
+/* Copyright 2013 Google Inc. All Rights Reserved. */
+body{width:320px;padding: 5px 10px;}
+form{
+    margin-bottom: 0;
+}
+
+#my_table{
+	width: 95%;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	background: white;
+    margin-left: 8px;
+}
+#info_btn_td{
+	text-align: center;
+}
+
+.table th, .table td{
+    padding: 5px;
+}
