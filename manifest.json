@@ -29,7 +29,7 @@
    "manifest_version": 2,
    "name": "北理工外网登录器",
    "permissions": ["webview","storage", "http://10.0.0.55/*","http://10.0.0.55:8080/*","notifications","idle"],
-   "version": "0.1.6"
+   "version": "0.2"
 //   "options_page": "options.html",
 //   "web_accessible_resources": [  "static/img/icon48.png","ipdata.dat"]
 }
