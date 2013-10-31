@@ -18,8 +18,8 @@ angular.module('srun3000.controllers', [])
                 $scope.uid = value.uid;
             } else {
                 $scope.accounts = {
-                    current:1,
-                    ids:[{username:"111118",password:"880824"},{username:"hiyuki",password:"3113979"}]
+                    current:0,
+                    ids:[]
                 };
             }
         };
