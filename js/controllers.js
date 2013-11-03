@@ -61,7 +61,7 @@ angular.module('srun3000.controllers', [])
                         chrome.storage.sync.set({'uid':data});
                     }
                     if($scope.save){
-                        // $scope.saveAccount();
+                        $scope.saveAccount();
                     }
                 }).error(function(){
                     $scope.message = "timeout";
